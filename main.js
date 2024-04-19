@@ -36,7 +36,7 @@ function createWindow() {
 
     mainWindow.setIgnoreMouseEvents(true)
     mainWindow.setSkipTaskbar(true)
-    mainWindow.setOpacity(0.7)
+    mainWindow.setOpacity(0.5)
 
     mainWindow.on('ready-to-show', () => {
         mainWindow.setAlwaysOnTop(true, 'screen-saver')
@@ -51,9 +51,9 @@ app.on('ready', function () {
     const contextMenu = Menu.buildFromTemplate([
         { label: '90%', type: 'radio', click: () => adjustOpacity(0.9) },
         { label: '80%', type: 'radio', click: () => adjustOpacity(0.8) },
-        { label: '70%', type: 'radio', click: () => adjustOpacity(0.7), checked: true },
-        { label: '60%', type: 'radio', click: () => adjustOpacity(0.6) },
-        { label: '50%', type: 'radio', click: () => adjustOpacity(0.5) },
+        { label: '70%', type: 'radio', click: () => adjustOpacity(0.7) },
+        { label: '60%', type: 'radio', click: () => adjustOpacity(0.6)},
+        { label: '50%', type: 'radio', click: () => adjustOpacity(0.5), checked: true },
         { label: '40%', type: 'radio', click: () => adjustOpacity(0.4) },
         { label: '30%', type: 'radio', click: () => adjustOpacity(0.3) },
         { label: '20%', type: 'radio', click: () => adjustOpacity(0.2) },
