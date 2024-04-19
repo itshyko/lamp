@@ -1,0 +1,16 @@
+{
+    "name": "lamp",
+    "version": "1.0.0",
+    "description": "Réduisez facilement la luminosité de vos écrans grâce à un overlay ajustable.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [],
+    "author": "HyKo",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^30.0.1"
+    }
+  }
+  
