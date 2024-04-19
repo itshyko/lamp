@@ -46,7 +46,7 @@ function createWindow() {
 app.on('ready', function () {
     createWindow();
 
-    const iconPath = path.join(__dirname, 'menu.png')
+    const iconPath = path.join(__dirname, 'icon.png')
     tray = new Tray(iconPath)
     const contextMenu = Menu.buildFromTemplate([
         { label: '90%', type: 'radio', click: () => adjustOpacity(0.9) },
