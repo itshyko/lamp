@@ -4,13 +4,37 @@
     "description": "Réduisez facilement la luminosité de vos écrans grâce à un overlay ajustable.",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
     },
     "keywords": [],
     "author": "HyKo",
     "license": "ISC",
     "devDependencies": {
-      "electron": "^30.0.1"
+        "electron": "^30.0.1",
+        "electron-builder": "^24.13.3"
+    },
+    "build": {
+        "appId": "ca.hyko.lamp",
+        "productName": "Lamp",
+        "artifactName": "lamp-setup-${version}.${ext}",
+        "executableName": "lamp",
+        "files": [
+            "**/*",
+            "menu.png"
+        ],
+        "win": {
+            "target": "nsis"
+        },
+        "linux": {
+            "target": "AppImage"
+        },
+        "mac": {
+            "target": "dmg"
+        }
+    },
+    "dependencies": {
+        "path": "^0.12.7"
     }
-  }
-  
+}
