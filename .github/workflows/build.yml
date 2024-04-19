@@ -25,7 +25,7 @@ jobs:
           draft: false
           prerelease: ${{ contains(env.VERSION_ID, 'beta') || contains(env.VERSION_ID, 'alpha') }}
 
-  build-and-upload:
+  build:
     needs: create-release
     runs-on: ${{ matrix.os }}
     strategy:
