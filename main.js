@@ -58,7 +58,7 @@ app.on('ready', function () {
         { label: '30%', type: 'radio', click: () => adjustOpacity(0.3) },
         { label: '20%', type: 'radio', click: () => adjustOpacity(0.2) },
         { label: '10%', type: 'radio', click: () => adjustOpacity(0.1) },
-        { label: 'Exit', role: 'quit' }
+        { label: 'Débrancher', role: 'quit' }
     ])
     tray.setToolTip('Lamp')
     tray.setContextMenu(contextMenu)
