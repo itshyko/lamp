@@ -1,6 +1,6 @@
 {
     "name": "lamp",
-    "version": "1.0.0",
+    "version": "1.0",
     "description": "Réduisez facilement la luminosité de vos écrans grâce à un overlay ajustable.",
     "main": "main.js",
     "scripts": {
