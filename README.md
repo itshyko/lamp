@@ -1,4 +1,7 @@
-# Lamp
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/itshyko/lamp/main/banner.png" alt="Lamp" width="800">
+</h1>
+
 
 Réduisez facilement la luminosité de vos écrans grâce à un overlay ajustable.
 
@@ -6,7 +9,7 @@ Réduisez facilement la luminosité de vos écrans grâce à un overlay ajustabl
 
 ## Installation
 
-Télécharger l'application dans les "releases" en sélectionnant votre plateforme.
+Télécharger l'application dans les "releases" (uniquement windows).
 
 1. Ouvrez le fichier.
 2. Suivez les étapes d'installation.
@@ -14,5 +17,6 @@ Télécharger l'application dans les "releases" en sélectionnant votre platefor
 
 ## Utilisation
 
-- Réglez la luminosité de l'overlay dans le menu de l'application dans la barre des tâches.
-- Fermez l'application pour désactiver l'overlay.
+- Tous les réglages sont accessibles dans la barre de tâches.
+- Réglez la luminosité de l'overlay dans le menu de l'application.
+- Activez ou désactivez l'overlay en cliquant sur l'icône.
